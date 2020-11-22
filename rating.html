@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script> -->
+
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <div>
+          <ul>
+            <li class="nav-item active">
+              <img src="images/logomal1.png"  class = "img-logo" width="53" height="53" alt="logo">
+            </li>     
+            <li class="nav-item main">
+              <a class="nav-link" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Заказ ремонта</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="employment.html">Трудоустройство</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rating.html">Оценка работы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О Нас</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-main col-fifth">
+                <h2 class = "color-title">Топ механиков</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Имя</th>
+                            <th scope="col">Очки</th>
+                            <th scope="col">Состояние</th>
+                            <th scope="col">Ваш мастер</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Василич</td>
+                            <td>87</td>
+                            <td>Занят</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Петрович</td>
+                            <td>80</td>
+                            <td>В запое</td>
+                            <td>-</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Алексей</td>
+                            <td>69</td>
+                            <td>Свободен</td>
+                            <td>-</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Михалыч</td>
+                            <td>62</td>
+                            <td>Занят</td>
+                            <td>-</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Андрюха</td>
+                            <td>54</td>
+                            <td>В отпуске</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>Мурадыч</td>
+                            <td>52</td>
+                            <td>Свободен</td>
+                            <td>+</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>Леха</td>
+                            <td>48</td>
+                            <td>В отпуске</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Ленька</td>
+                            <td>43</td>
+                            <td>Занят</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>Санек</td>
+                            <td>39</td>
+                            <td>Свободен</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10</th>
+                            <td>Тимоха</td>
+                            <td>34</td>
+                            <td>Не пришел</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div class="col-main col-sixth">
+                <form class = "color-title">
+                <h2>Оцените Нас!</h2>
+
+                <h2>Ваш Мастер: #6</h2>
+                <img src="images/murad.jpg" class="img-big">
+
+                <div class="col-auto my-1">
+                    <label for="inlineFormCustomSelect">Ваша оценка</label>
+                    <div>
+                    <select class="form-control color-title" id="inlineFormCustomSelect">
+                        <option selected>...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+
+                    </select>
+                </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="inputPatronymic3">Ваш комментарий</label>
+                    <div>
+                    <textarea class="form-control" id="validationTextarea"></textarea>
+                </div>
+                </div>
+                <div class = "color-title">
+                    <div>
+                        <button type="submit" class="btn-join">Отправить</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+
+            <div class="col-third">
+                <h2 class = "color-title">Номер заказа: </h2>
+                <form class ="color-title">
+                    <div>
+                        <div>
+                            <input type="name" class="form-control" id="inputName3" placeholder="000-000">
+                        </div>
+                    </div>
+                </form>
+
+                <h2 class = "color-title">Мурадыч</h2>
+                <h2 class = "color-title">48 лет</h2>
+                <h2 class = "color-title">52 балла</h2>
+ 
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
