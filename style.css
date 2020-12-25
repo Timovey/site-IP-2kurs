@@ -181,20 +181,14 @@ padding-right: 5px;
 width: 18rem;
 }
 
-
+ 
 @media screen and (max-width: 800px){
-   
     .col-main {
         display: block;
         position: relative;
         width: 30%;
     }
- 
- }
 
- 
-@media screen and (max-width: 800px){
-   
     .col-seven {
         display: block;
         float: right;
