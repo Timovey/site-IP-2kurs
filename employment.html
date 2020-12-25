@@ -62,33 +62,32 @@
                     <div>
                         <label for="inputTel3">Телефон</label>
                         <div class="col-sm-10">
-                            <input type="tel" class="form-control" id="inputTel3" placeholder="+7----------">
+                            <input type="tel" class="form-control" id="inputTel3" name = "tel" placeholder="+7----------" required>
                         </div>
                     </div>
                     <div>
                         <label for="inputName3">Имя</label>
                         <div class="col-sm-10">
-                            <input type="name" class="form-control" id="inputName3">
+                            <input type="name" class="form-control" name = "name" id="inputName3" required>
                         </div>
                     </div>
                     <div>
                         <label for="inputFamily3">Фамилия</label>
                         <div class="col-sm-10">
-                            <input type="family" class="form-control" id="inputFamily3">
+                            <input type="family" class="form-control" name = "surname" id="inputFamily3" required>
                         </div>
                     </div>
                     <div class=>
                         <label for="inputPatronymic3">Отчество</label>
                         <div class="col-sm-10">
-                            <input type="patronymic" class="form-control" id="inputPatronymic3">
+                            <input type="patronymic" class="form-control" name = "patronymic" id="inputPatronymic3" required>
                         </div>
                     </div>
 
                     <div>
                         <label for="inlineFormCustomSelect" >Опыт работы</label>
                         <div>
-                        <select class="form-control color-title" id="inlineFormCustomSelect">
-                            <option selected>...</option>
+                        <select class="form-control color-title" id="inlineFormCustomSelect"  name = "experience" required>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -102,24 +101,20 @@
                     <div>
                         <label for="inputPatronymic3" >Образование</label>
                         <div>
-                        <textarea class="form-control" id="validationTextarea"></textarea>
+                        <textarea class="form-control" id="validationTextarea" name = "education" ></textarea>
                     </div>
                     </div>
 
                     <div>
                         <label for="inputPatronymic3" >Рекомендации</label>
                         <div>
-                        <textarea class="form-control" id="validationTextarea"></textarea>
+                        <textarea class="form-control" id="validationTextarea" name = "recomendation" ></textarea>
                     </div>
-                    </div>
-            
-                        <div class="form-group">
+                    </div>       
                             <div>
                                 <input type="submit" class="btn-join"></input>
                             </div>
-                        </div>
-         
-
+        
                 </form>
             </div>
 
